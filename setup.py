@@ -7,4 +7,11 @@ setup(name='picomongo',
       author_email='contact@dmcloud.net',
       packages=['picomongo'],
       install_requires=['pymongo'],
+      classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        'Programming Language :: Python',
+        'Topic :: Database',
+      ]
 )
